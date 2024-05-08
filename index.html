@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CND tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+    <link rel="stylesheet"
+        href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link rel="icon" href="./Sozo-Foundation-Logo1.png" type="image/x-icon">
+
+
+    <title>Calu Before Login Home Page</title>
+</head>
+
+<body class="font-[poppins] bg-gradient-to-t from-[#ffffff] to-[#ffffff] h-screen">
+    <header class="bg-white p-2 overflow-visible !important">
+
+        <!-- Navbar -->
+        <nav class="flex justify-between items-center w-[92%] m-auto">
+
+            <!-- Logo -->
+            <div>
+                <a href="home.html" class=" flex items-center">
+                    <img src="./Sozo-Foundation-Logo.png" alt="sozo Logo" class="w-36">
+                </a>
+            </div>
+
+            <div class="flex items-center gap-6">
+                <button class="bg-[#5d93f1] text-white px-5 py-2 rounded-full hover:bg-[#0f67ae]"><a>Contact
+                        Us</a></button>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+
+
+
+
+
+        <section class=" py-1 bg-blueGray-50">
+
+            <div class="flex justify-center  mt-6">
+                <img class="h-auto w-80" src="./WhatsApp Image 2024-04-29 at 09.03.15_12f4d8d6.jpg"
+                    alt="SOZO vote poster">
+            </div>
+            <div class="w-full lg:w-8/12 px-4 mx-auto mt-8 py-8 text-center ">
+                <h3 class="text-blueGray-700 text-xl">Criteria (Circle)</h3>
+                <p class="text-blueGray-500 text-l m-3 leading-7">
+
+                    Displays leadership; Team Player; Innovator & Pioneer; Loyal; Efficient; A good
+                    Samaritan; Great work ethic; One who gets things done; Reliable; Self Improver; Show
+                    Resilience; Consistent.
+                </p>
+            </div>
+
+            <div class="w-full lg:w-8/12 px-4 mx-auto mt-6">
+                <div
+                    class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0">
+                    <div class="rounded-t bg-white mb-0 px-6 py-6">
+                        <div class="text-center flex justify-between">
+                            <h6 class="text-blueGray-700 text-xl font-bold">
+                                Cast your vote for Game Changer
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
+                        <form method="post" action="" name="votingForm" id="votingForm" class="w-full">
+                            <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+                                Voter Information
+                            </h6>
+                            <div class="flex flex-wrap">
+
+                                <div class="w-full lg:w-6/12 px-4">
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                            htmlfor="grid-password">
+                                            First Name
+                                        </label>
+                                        <input type="text" name="voter-first-name"
+                                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                            value="">
+                                    </div>
+                                </div>
+                                <div class="w-full lg:w-6/12 px-4">
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                            htmlfor="grid-password">
+                                            Last Name
+                                        </label>
+                                        <input type="text" name="voter-last-name"
+                                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                            value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="mt-6 border-b-1 border-blueGray-300">
+
+                            <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+                                Nominee for Game Changer
+                            </h6>
+
+                            <div class="flex flex-wrap">
+                                <div class="w-full lg:w-6/12 px-4">
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                            htmlfor="grid-password">
+                                            First Name
+                                        </label>
+                                        <input type="text" name="nominee-first-name"
+                                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                            value="">
+                                    </div>
+                                </div>
+                                <div class="w-full lg:w-6/12 px-4">
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                            htmlfor="grid-password">
+                                            Last Name
+                                        </label>
+                                        <input type="text" name="nominee-last-name"
+                                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                            value="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr class="mt-6 border-b-1 border-blueGray-300">
+
+                            <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
+                                Reason
+                            </h6>
+                            <div class="flex flex-wrap">
+                                <div class="w-full lg:w-12/12 px-4">
+                                    <div class="relative w-full mb-3">
+                                        <label class="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                            htmlfor="grid-password">
+                                            Proide a reason for your vote
+                                        </label>
+                                        <textarea type="text" name="reason"
+                                            class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                            rows="4"> </textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex justify-center">
+                                <button
+                                    class="bg-[#5d93f1] text-white text-l px-6 py-3 rounded-full hover:bg-[#0f67ae] mt-6"
+                                    type="submit" id="Submit" style="transition: all 0.15s ease 0s;">
+                                    Submit Vote
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-200">
+        <div class="h-auto w-auto p-10">
+            <div class="flex justify-center align-center">
+                <p>&copy; 2024 Sozo Foundation</p>
+            </div>
+    </footer>
+
+    <script src="Googlesheet.js"></script>
+
+</body>
+
+</html>
