@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyUlOyGCYHLrT9VA4-KKdzWrsBapxU6gWsUeDT6NpH-5Q30KsdKEQq8zlQSITW049tY5A/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwcmyoa1hn-qAmB5o3CaoBtAnBfhvX-Ggzt_O4V2kwj0H06CpYPBGodgnx8Mj-5OL8Xyw/exec';
 const form = document.forms['votingForm'];
 
 form.addEventListener('submit', e => {
